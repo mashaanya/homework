@@ -1,0 +1,2 @@
+# homework
+print('K')
