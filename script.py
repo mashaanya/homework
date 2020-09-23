@@ -20,7 +20,7 @@ if mtime:
     print('The last modofication time is ', ti)
 if size:
     s=os.path.getsize('/Users/admin/PycharmProjects/pythonProject/hf.py')
-    print('The size of the file is', s)
+    print('The size of the file is', s/(2**10))
 if filename:
     print('The file is','/Users/admin/PycharmProjects/pythonProject/hf.py')
 if rename:
